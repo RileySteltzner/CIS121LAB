@@ -1,8 +1,8 @@
-light_color = int(input("Enter 1 for Green, 2 for Yellow, or 3 for Red: "))
+light_color = input("Enter green, yellow, or red: ")
 
-if light_color == 1:
+if light_color == "green":
     print('GO')
-elif light_color == 2:
+elif light_color == "yellow":
     print('YEILD')
 else:
     print('STOP')
