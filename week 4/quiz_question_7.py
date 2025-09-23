@@ -1,4 +1,4 @@
-n = 1
+n = 25
 print(n, end="")
 
 while n != 1: 
