@@ -6,6 +6,6 @@ while n != 1:
         n = n // 2 
     else:
         n = 3 * n + 1
-    print(n, end="")
+    print(n, end=" ")
 print("\nSequence ended.")
 
