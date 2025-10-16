@@ -11,8 +11,9 @@ print (x[2:8])
 '''
 
 #print each letter of a word using a for loop
-
+'''
 x= 'hello world'
 
 for letter in x:
     print(letter)
+'''

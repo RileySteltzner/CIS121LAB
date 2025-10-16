@@ -5,5 +5,5 @@ while num <= user_num:
     total += num ** 2
     num += 1 
 print(total)
-print ("\nsequence ended")
+
     

@@ -22,7 +22,7 @@ for num in range(5,user_value+1):
 '''
 #find the sum of user entered values until 
 #the user types 'q'
-
+'''
 total = 0
 
 while True:
@@ -32,7 +32,7 @@ while True:
         break
     total += int(user_values)
 print(total)
-
+'''
 
 
 
