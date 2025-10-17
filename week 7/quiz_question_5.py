@@ -1,3 +1,4 @@
+'''
 def find_oldest(age_dict):
     oldest_person = ""
     max_age = -1
@@ -7,3 +8,10 @@ def find_oldest(age_dict):
             max_age = curr_age
             oldest_person = curr_name
     return oldest_person
+'''
+
+def find_oldest(age_dict):
+    max_age = max(age_dict, key=age_dict.get)
+    return max_age
+age_dict = {"Emma": 71, "jack": 45, "olivia": 82, "liam": 39}
+print(find_oldest(age_dict))
